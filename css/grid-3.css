@@ -1,0 +1,25 @@
+#buttons>.addButton>a {
+    font-size: 6em;
+    color: blue;
+    border-radius: 30px;
+    padding: 0px 15px 0px 15px;
+    margin: 0px 15px 0px 15px;
+}
+
+#buttons>.delButton>a {
+    font-size: 6em;
+    color: red;
+    border-radius: 30px;
+    padding: 0px 15px 0px 15px;
+    margin: 0px 15px 0px 15px;
+}
+
+a:hover {
+    background-color: lightgrey;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.card-body:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}

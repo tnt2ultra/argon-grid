@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link href="argon/assets/img/brand/favicon.png" rel="icon" type="image/png">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="argon/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+    <link href="argon/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Argon CSS -->
+    <link type="text/css" href="argon/assets/css/argon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/grid-3.css">
+
+    <title>Test Argon grid. Add/remove blocks.</title>
+</head>
+
+<body>
+    <div id="container" class="container-fluid">
+
+        <div id="header" class="row color-swatch-header bg-secondary p-3">
+            Test Argon grid
+        </div>
+
+        <div id="main" class="row justify-content-center">
+        </div>
+
+        <div id="buttons" class="d-flex flex-row-reverse">
+
+            <div id="add" class="addButton">
+                <a href="#" class="text-decoration-none" onclick="return addClick();">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div id="delete" class="delButton invisible">
+                <a href="#" class="text-decoration-none" onclick="return deleteClick();">
+                    <i class="fa fa-minus-circle" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
+        <div id="footer" class="row color-swatch bg-secondary">
+            <div class="col-12">
+                <div class="d-flex py-3">
+                    <div class="flex-grow-1">Click "Plus" to add new block. Click block to select it.
+                        Click red cross to delete selected blocks.
+                    </div>
+                    <div>Selected: <span id="count">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Core -->
+    <script src="argon/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="argon/assets/vendor/popper/popper.min.js"></script>
+    <script src="argon/assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Optional plugins -->
+    <script src="argon/assets/vendor/PLUGIN_FOLDER/PLUGIN_SCRIPT.js"></script>
+
+    <!-- Theme JS -->
+    <script src="argon/assets/js/argon.js"></script>
+
+    <script src="js/grid-3.js"></script>
+</body>
+
+</html>
