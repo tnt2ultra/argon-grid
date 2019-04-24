@@ -1,3 +1,6 @@
+// Test Argon grid. Add/remove blocks.
+// https://github.com/tnt2ultra/argon-grid/
+
 var numDiv = 1;
 var divArray = [];
 var numSelected = 0;
